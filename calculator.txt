@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Calculator</title>
+    </head>
+    <body>
+        <table width="400px" height="300px">
+        <tr>
+                <td colspan="2" text-align="centre">
+                    <h1><font color="blue" size="20">Calculator</font></h1>
+                </td>    
+        </tr>
+        <tr>
+                <td colspan="2">
+                    <img src="Calculator.jpg" width="400" height="300"/>
+                </td>
+        <tr>
+                <td>
+                    <label for="input1">Input1</label>
+                </td>
+                <td>
+                    <input type="number" name="input1" id="input1" value="" />
+                </td>
+        </tr>
+        <tr>
+                <td>
+                    <label for="input2">Input2</label>
+                </td>
+                <td>
+                    <input type="number" name="input2" id="input2" value="" />
+                <td>
+        </tr>
+        <tr>
+                <td>
+                    <label for="Select Operation">Select Operation</label>
+                </td>
+                <td>
+                    <select name="operation" id="operation" >
+                        <option value="Select..">Select..</option>
+                        <option value="ADD">ADD</option>
+                        <option value="SUBTRACT">SUBTRACT</option>
+                        <option value="MULTIPLY">MULTIPLY</option>
+                        <option value="DIVIDE">DIVIDE</option>
+                    </select>
+                </td>
+        </tr>
+        <tr >
+                <td>
+                    <img src="calc.jpg"/>
+                </td>
+                <td>
+                    <img src="reset.jpg"/>
+                </td>
+        </tr>
+        </table>
+    </body>
+</html>
